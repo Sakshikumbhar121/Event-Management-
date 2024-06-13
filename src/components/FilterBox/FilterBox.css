@@ -1,0 +1,41 @@
+.filter-card {
+  width: 500px;
+  background-color: rgba(109, 178, 194, 0.623);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 30px; 
+  margin-bottom: 40px;
+  border: 1px solid palegreen;
+}
+
+.wrapper {
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date label {
+  font-size: 20px ;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: rgb(0, 0, 0);
+}
+
+.date select {
+  font-size: 16px;
+}
+
+.filter-card button {
+  padding: 12px 28px;
+  border-style: none;
+  border-radius: 6px;
+  background-color: rgb(78, 52, 102);
+  cursor: pointer;
+}
+
+.filter-card button:hover {
+  background-color: rgb(9, 140, 68);
+}
